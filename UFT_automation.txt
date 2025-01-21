@@ -1,0 +1,69 @@
+Sign up on website
+
+Browser("Automation Exercise").Page("Automation Exercise").Link("Signup / Login").Click
+Browser("Automation Exercise").Page("Automation Exercise -").WebEdit("name").Set "Christinah Kabejis"
+Browser("Automation Exercise").Page("Automation Exercise -").WebEdit("email").Set"kristinkabajwisa@gmail.com"
+Browser("Automation Exercise").Page("Automation Exercise -").WebButton("Signup").Click
+Browser("Automation Exercise").Page("Automation Exercise -_2").WebRadioGroup("title").Select "Mrs"
+Browser("Automation Exercise").Page("Automation Exercise -_2").WebEdit("password").SetSecure "6788dc40629d768344476e8dfb23ebf1f4aabe7d6ddaf9ebb8136bce95a3"
+Browser("Automation Exercise").Page("Automation Exercise -_2").WebList("days").Select "29"
+Browser("Automation Exercise").Page("Automation Exercise -_2").WebList("months").Select "December"
+Browser("Automation Exercise").Page("Automation Exercise -_2").WebList("years").Select "1991"
+Browser("Automation Exercise").Page("Automation Exercise -_2").WebEdit("first_name").Set "Christine"
+Browser("Automation Exercise").Page("Automation Exercise -_2").WebEdit("last_name").Set "Kabejis"
+Browser("Automation Exercise").Page("Automation Exercise -_2").WebEdit("address1").Set "Kampala, Uganda"
+Browser("Automation Exercise").Page("Automation Exercise -_2").WebList("country").Select "United States"
+Browser("Automation Exercise").Page("Automation Exercise -_2").WebEdit("state").Set "Test"
+Browser("Automation Exercise").Page("Automation Exercise -_2").WebEdit("city").Set "Tests"
+Browser("Automation Exercise").Page("Automation Exercise -_2").WebEdit("zipcode").Set "256"
+Browser("Automation Exercise").Page("Automation Exercise -_2").WebEdit("mobile_number").Set "+256757755635"
+Browser("Automation Exercise").Page("Automation Exercise -_2").WebButton("Create Account").Click
+Browser("Automation Exercise").Page("Automation Exercise -_3").WebElement("Account Created! Congratulatio").Click
+Browser("Automation Exercise").Page("Automation Exercise -_3").Link("Continue").Click
+Browser("Automation Exercise").WinObject("Intermediate D3D Window").Check CheckPoint("Intermediate D3D Window")
+Browser("Automation Exercise").Page("Automation Exercise").WebElement("Logged in as Christinah").Click
+Browser("Automation Exercise").Page("Automation Exercise").WebElement("Logged in as Christinah").Check CheckPoint("Logged in as Christinah Kabejis")
+Browser("Automation Exercise").Page("Automation Exercise").Link("Logout").Check CheckPoint("Logout")
+Browser("Automation Exercise").Page("Automation Exercise").Link("Logout").Click
+
+Log in
+
+Browser("Automation Exercise").Navigate "https://www.automationexercise.com/"
+Browser("Automation Exercise").Page("Automation Exercise").Link("Signup / Login").Click
+Browser("Automation Exercise").Page("Automation Exercise").Link("Signup / Login").Click
+Browser("Automation Exercise").Page("Automation Exercise -").WebEdit("email").Set "Christinah Kabejis"
+Browser("Automation Exercise").Page("Automation Exercise -").WebEdit("email_2").Set "Christinah Kabejis"
+Browser("Automation Exercise").Page("Automation Exercise -").WebEdit("password").SetSecure "6788ef887dd83a5762260ba6400e49cbc91c7ace8d15ac18bd8f98f9a526"
+Browser("Automation Exercise").Page("Automation Exercise -").WebElement("Login to your account_2").Click
+Browser("Automation Exercise").Page("Automation Exercise -").WebEdit("email_2").Set "kristinkabajwisa@gmail.com"
+Browser("Automation Exercise").Page("Automation Exercise -").WebButton("Login").Click
+'Window("Google Chrome").Window("Save password?").WinObject("Intermediate D3D Window").Check CheckPoint("Intermediate D3D Window_4")
+Browser("Automation Exercise").Page("Automation Exercise").WebElement("Logged in as Christinah").Check CheckPoint("Logged in as Christinah Kabejis")
+Browser("Automation Exercise").Page("Automation Exercise").Link("Logout").Click
+'Browser("Automation Exercise").WinObject("Intermediate D3D Window").Check CheckPoint("Intermediate D3D Window_5")
+Browser("Automation Exercise").Page("Automation Exercise -").WebEdit("email").Set "Christinah Kabejis"
+'Browser("Automation Exercise").Page("Automation Exercise -").WebEdit("email_2").Set "Christinah Kabejis"
+Browser("Automation Exercise").Page("Automation Exercise -").WebEdit("password").SetSecure "6788efc62e4e15be40fef215b288e1bfa0ca263f7ef70684f28a43e72fc5"
+Browser("Automation Exercise").Page("Automation Exercise -").Link("Signup / Login").Click
+Browser("Automation Exercise").Page("Automation Exercise -").Sync
+Browser("Automation Exercise").Close
+
+Verify Products
+
+Browser("Automation Exercise").Page("Automation Exercise").Link("Signup / Login").Click
+Browser("Automation Exercise").Page("Automation Exercise -").WebEdit("email").Set "Christinah Kabejis"
+Browser("Automation Exercise").Page("Automation Exercise -").WebEdit("email_2").Set "Christinah Kabejis"
+Browser("Automation Exercise").Page("Automation Exercise -").WebEdit("password").SetSecure "6788f2e5b2d1b13adba044be1ef69fa44e9673744792d2f3a3484e05b3a6"
+Browser("Automation Exercise").Page("Automation Exercise -").WebEdit("email_2").Set "kristinkabajwisa@gmail.com"
+Browser("Automation Exercise").Page("Automation Exercise -").WebButton("Login").Click
+Browser("Automation Exercise").Page("Automation Exercise").Link(" Products").Click
+Browser("Automation Exercise").Page("Automation Exercise -_2").WebElement("All Products").Check CheckPoint("All Products")
+Browser("Automation Exercise").Page("Automation Exercise -_2").Link("View Product").Click
+Browser("Automation Exercise").Page("Automation Exercise -_3").WebElement("Blue Top").Check CheckPoint("Blue Top")
+Browser("Automation Exercise").WinObject("Intermediate D3D Window").Check CheckPoint("Intermediate D3D Window")
+Browser("Automation Exercise").Page("Automation Exercise -_3").WebElement("Quantity:").Click
+Browser("Automation Exercise").Page("Automation Exercise -_3").WebElement("Availability:").Check CheckPoint("Availability:")
+Browser("Automation Exercise").Page("Automation Exercise -_3").WebElement("Condition:").Check CheckPoint("Condition:")
+Browser("Automation Exercise").Page("Automation Exercise -_3").WebElement("Brand: Polo").Check CheckPoint("Brand: Polo")
+Browser("Automation Exercise").Page("Automation Exercise -_3").WebElement("Logged in as Christinah").Check CheckPoint("Logged in as Christinah Kabejis")
+Browser("Automation Exercise").Page("Automation Exercise -_3").Link("Logout").Click
