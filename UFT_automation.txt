@@ -8,7 +8,7 @@ Browser("Automation Exercise").Page("Automation Exercise -_2").WebRadioGroup("ti
 Browser("Automation Exercise").Page("Automation Exercise -_2").WebEdit("password").SetSecure "6788dc40629d768344476e8dfb23ebf1f4aabe7d6ddaf9ebb8136bce95a3"
 Browser("Automation Exercise").Page("Automation Exercise -_2").WebList("days").Select "29"
 Browser("Automation Exercise").Page("Automation Exercise -_2").WebList("months").Select "December"
-Browser("Automation Exercise").Page("Automation Exercise -_2").WebList("years").Select "1991"
+Browser("Automation Exercise").Page("Automation Exercise -_2").WebList("years").Select "2025"
 Browser("Automation Exercise").Page("Automation Exercise -_2").WebEdit("first_name").Set "Christine"
 Browser("Automation Exercise").Page("Automation Exercise -_2").WebEdit("last_name").Set "Kabejis"
 Browser("Automation Exercise").Page("Automation Exercise -_2").WebEdit("address1").Set "Kampala, Uganda"
